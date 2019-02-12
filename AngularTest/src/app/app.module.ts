@@ -8,6 +8,7 @@ import { CharactersComponent } from './characters/characters.component';
 import { FormsModule } from "@angular/forms";
 import { CharacterDetailComponent } from './character-detail/character-detail.component';
 import { MessagesComponent } from './messages/messages.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { MessagesComponent } from './messages/messages.component';
     CharactersComponent,
     CharacterDetailComponent,
     MessagesComponent,
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,
