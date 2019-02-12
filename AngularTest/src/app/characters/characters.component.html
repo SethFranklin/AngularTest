@@ -1,0 +1,13 @@
+<h2>Smash 6 Character Roster Leak</h2>
+
+<ul class="character">
+	
+	<li *ngFor="let char of characters" (click)="onSelect(char)" [class.selected]="char === selected_char">
+		
+		<span class="badge">{{char.id}}</span> {{char.name}}
+
+	</li>
+	
+</ul>
+
+<app-character-detail [char]="selected_char"></app-character-detail>
